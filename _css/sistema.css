@@ -1,0 +1,232 @@
+/* Mensagens do sistema 
+------------------------------------------------------------------------------------------ */
+
+p.msgok {
+	padding: 15px 15px 15px 65px;
+	border: 3px solid #74b800;
+	background-color: #caff6f;
+	background-image: url(../_imagens/sistema/icone_msgok.jpg);
+	background-position: center left; 
+	background-repeat: no-repeat;  
+	margin-bottom: 50px !important;
+	color: #4d7100;
+	font-size: 16px;
+}
+
+p.msgatencao {
+	padding: 15px 15px 15px 65px;
+	border: 3px solid #ffc000;
+	background-color: #fff772;
+	background-image: url(../_imagens/sistema/icone_msgatencao.jpg);
+	background-position: center left; 
+	background-repeat: no-repeat;  
+	margin-bottom: 50px !important;
+	color: #795b00;
+	font-size: 16px;
+}
+
+p.msgerro {
+	padding: 15px 15px 15px 65px;
+	border: 3px solid #b20000;
+	background-color: #ff3030;
+	background-image: url(../_imagens/sistema/icone_msgerro.jpg);
+	background-position: center left; 
+	background-repeat: no-repeat; 
+	margin-bottom: 50px !important; 
+	color: #fff;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+div.msgerro_lista
+{
+	padding: 15px 15px 15px 65px;
+	border: 3px solid #b20000;
+	background-color: #ff3030;
+	background-image: url(../_imagens/sistema/icone_msgerro.jpg);
+	background-position: center left; 
+	background-repeat: no-repeat; 
+	margin: 50px 0px;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+}
+
+div.msgerro_lista p
+{
+	margin-bottom: 30px;
+	line-height: 16px;
+}
+
+div.msgerro_lista ul
+{
+	list-style: disc;
+	padding-left:20px;
+}
+
+div.msgerro_lista ul li
+{
+	margin-bottom: 5px;
+	padding-left: 5px;
+	color: #fff !important;
+}
+
+
+
+/* Estilos de formulários 
+------------------------------------------------------------------------------------------ */
+
+form.grande p.campo {
+	width: 100%; 
+	margin-bottom: 25px; 
+	font-size: 20px; 
+	line-height: 32px;
+}
+
+form.grande p.margemdupla {
+	margin-bottom: 50px; 
+}
+
+form.grande p.campo label {
+	display: block; 
+	float: left; 
+	width: 180px; 
+	margin-right: 10px; 
+	font-size: 24px; 
+	text-align: right; 
+}
+
+form.grande p.campo input[type="text"], 
+form.grande p.campo select, 
+form.grande p.campo textarea {
+	font-size: 18px; 
+	border: 1px solid #bdbdbd; 
+}
+
+form.grande p.campo input[type="text"],
+form.grande p.campo select {
+	height: 32px; 
+	padding: 0px 5px; 
+}
+
+form.grande p.campo .longo {
+	width: 650px; 
+}
+
+form.grande p.campo .medio {
+	width: 450px; 
+}
+
+form.grande p.campo .curto {
+	width: 290px; 
+}
+
+form.grande p.campo .extracurto {
+	width: 180px; 
+}
+
+form.grande p.campo textarea {
+	display: block; 
+	padding: 5px; 
+	margin: 0px; 
+}
+
+form.grande p.campo textarea.grande {
+	width: 650px; 
+	height: 100px; 
+}
+
+form.grande p.campo textarea.medio {
+	width: 400px; 
+	height: 70px; 
+}
+
+form.grande p.campo textarea.pequeno {
+	width: 250px; 
+	height: 50px; 
+}
+
+form.grande p.campo span.instrucoes {
+	font-size: 14px; 
+}
+
+form.grande p.btcentro {
+	text-align: center; 
+}
+
+form.grande p.btesq {
+	margin-left: 210px;  
+}
+
+form.pequeno p.campo {
+	width: 100%; 
+	margin-bottom: 15px; 
+	font-size: 16px; 
+	line-height: 24px;
+}
+
+form.pequeno p.campo label {
+	display: block; 
+	float: left; 
+	width: 140px; 
+	margin-right: 10px; 
+	text-align: right; 
+}
+
+form.pequeno p.campo input[type="text"], 
+form.pequeno p.campo select, 
+form.pequeno p.campo textarea {
+	font-size: 14px; 
+	border: 1px solid #bdbdbd; 
+}
+
+form.pequeno p.campo input[type="text"],
+form.pequeno p.campo select {
+	height: 24px; 
+	padding: 0px 5px; 
+}
+
+form.pequeno p.campo .longo {
+	width: 450px; 
+}
+
+form.pequeno p.campo .medio {
+	width: 300px; 
+}
+
+form.pequeno p.campo .curto {
+	width: 200px; 
+}
+
+form.pequeno p.campo .extracurto {
+	width: 140px; 
+}
+
+form.pequeno p.campo textarea {
+	display: block; 
+	padding: 5px; 
+	margin: 0px; 
+}
+
+form.pequeno p.campo textarea.grande {
+	width: 650px; 
+	height: 100px; 
+}
+
+form.pequeno p.campo textarea.medio {
+	width: 400px; 
+	height: 70px; 
+}
+
+form.pequeno p.campo textarea.pequeno {
+	width: 250px; 
+	height: 50px; 
+}
+
+form.pequeno p.btcentro {
+	text-align: center; 
+}
+
+form.pequeno p.btesq {
+	margin-left: 160px;  
+}

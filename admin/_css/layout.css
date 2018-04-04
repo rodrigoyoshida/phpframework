@@ -1,0 +1,444 @@
+/* Estrutura geral
+------------------------------------------------------------------------------------------ */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body  {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 14px;
+	color: #515151; 
+	
+	margin: 0px;
+	padding: 0px;
+	background: #dbd5c7 url("../_imagens/layout/background_interno.jpg") no-repeat top center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+strong {
+	font-weight: bold; 
+}
+
+/* Estilos
+----------------------------------------------------------------------------*/
+button, input[type=submit], input[type=button], a.botao{
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	color: #fff;
+	font-size: 12px;
+	background: url("../_imagens/layout/background_botao.jpg") repeat-x top left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.box{
+	padding: 30px;
+	background-color: #f4f1eb;
+	border: 1px solid #e5dfd0;
+	position: relative;
+}
+
+.box h2{
+	color: #4a4a4a;
+	font-size: 16px;
+}
+
+.box p.descricao{
+	font-size: 11px;
+	color: #919191;
+}
+
+.box label{
+	font-size: 12px;
+	color: #919191;
+	display: inline-block;
+}
+
+.box p{
+	font-size: 12px;
+	color: #919191;
+}
+
+.formBox{
+	padding-bottom: 30px;
+	background-color: #f4f1eb;
+	border: 1px solid #e5dfd0;
+	position: relative;
+}
+
+table.linhas{ 
+	background-color: #f1f1f1; 
+	border-spacing: 0px;
+}
+
+table.linhas thead tr th{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 25px;
+	background: transparent url("../_imagens/layout/background_topo.jpg") repeat-x top left;
+	padding: 15px 30px 15px 30px;
+	text-align: left;
+}
+
+table.linhas tbody tr th{
+	width: 100px;
+	font-size: 12px;
+	color: #919191;
+	padding-left: 30px;
+	font-weight: normal;
+	text-align: right;
+}
+
+table.linhas tbody tr td{
+	padding: 5px 30px 5px 10px;
+}
+
+table.colunas{ 
+	background-color: #fff;
+	border-spacing: 0px; 
+}
+
+table.colunas thead tr th{
+	color: #fff;
+	font-size: 12px;
+	margin-bottom: 25px;
+	background: transparent url("../_imagens/layout/background_topo.jpg") repeat-x top left;
+	padding: 15px 5px 15px 5px;
+	text-align: left;
+	border: none;
+}
+
+table.colunas tbody tr td{ 
+	border-bottom: 1px solid #e1e1e1; 
+	padding: 15px 5px 15px 5px;
+	color: #919191;
+}
+
+table.colunas tbody tr td.opcoes{
+	width: 50px;
+	text-align: center;
+}
+
+table.colunas tbody tr td a{
+	color: #97855b;
+	text-decoration: underline;
+}
+
+ul li{
+	color: #919191;
+	font-size: 12px;
+}
+
+ul li a{
+	text-decoration: underline;
+	color: #97855b;
+	font-size: 12px;
+}
+
+ul.paginacao{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+}
+
+ul.paginacao li a{
+	padding: 8px 12px 8px 12px;
+	color: #fff;
+	background-color: #887a5f;
+	float: left;
+	margin-right: 10px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+ul.paginacao li.atual{
+	background-color: #dbd5c7 !important;	
+	padding: 8px 12px 8px 12px;
+	color: #fff;
+	float: left;
+	margin-right: 10px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+dl dt{
+	font-size: 14px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dbd5c6;
+	color: #919191;
+}
+
+dl dd{
+	padding-left: 20px;
+}
+
+ul.padrao{
+	list-style: none;
+}
+
+ul.padrao li{
+	border-bottom: 1px solid #dbd5c6;
+	padding: 5px 0px 5px 0px;
+	color: #919191;
+	font-size: 12px;
+	display: table;
+}
+
+ul.marcador{
+	margin-left: 20px;
+}
+
+ul.marcador{
+	display: table;
+}
+
+input[type=text],input[type=password]{
+	border: 1px solid #dbd5c7;
+	height: 28px;
+}
+
+textarea{
+	border: 1px solid #dbd5c7;
+}
+
+.curto{
+	width: 183px;
+	padding-left: 15px;
+}
+
+.medio{
+	width: 293px;
+	padding-left: 15px;
+}
+
+.longo{
+	width: 353px;
+	padding-left: 15px;
+}
+
+div#website {
+	width: 980px;
+	margin: 0px auto; 
+	background-color: #fff;
+	position: relative;
+}
+
+#website header{
+	width: 980px;
+	min-height: 180px;
+	position: relative;
+}
+
+#website header h1{
+	width: 190px;
+	margin: 0px auto;
+	padding: 40px 0px 40px 0px;
+}
+
+#website header h1 a{
+	display: block;
+}
+
+#website header nav{
+	width: 100%;
+	height: 50px;
+	background: transparent url("../_imagens/layout/background_topo.jpg") repeat-x top left;
+	position: relative;
+}
+
+#website header nav ul{
+	margin-left: 40px;
+}
+
+#website header nav ul li{
+	height: 33px;
+	display: inline-block;
+	padding: 17px 15px 0px 15px;
+	position: relative;
+	transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+}
+
+#website header nav ul li:hover{
+  background: #dbd5c7;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+
+#website header nav ul li .dropmenu{
+	background-color: #dbd5c7;
+	margin: 0px;
+  	padding: 30px 0px 20px 0px;
+  	position: absolute;
+  	top: 50px;
+  	left: 0;
+  	opacity: 0;
+  	visibility: hidden;
+  	z-index: 99999;
+  	transition: visibility 0s linear 0.3s,opacity 0.5s linear;
+  	-webkit-transition: visibility 0s linear 0.3s,opacity 0.5s linear;
+  	-moz-transition: visibility 0s linear 0.3s,opacity 0.5s linear;
+  	overflow: hidden;
+}
+
+#website header nav ul li:hover .dropmenu{
+  opacity: 1;
+  visibility: visible;
+}
+
+#website header nav ul li .dropmenu a{
+	display: block;
+	margin-bottom: 10px;
+	padding: 0px 40px 0px 30px;
+	white-space: nowrap;
+	color: #4a4a4a;
+}
+
+#website header nav ul li .dropmenu a:hover{
+	text-decoration: underline;
+}
+
+#website header nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#website header nav a.sair{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+#website #conteudo{
+	padding: 50px 40px 100px 40px;
+	min-height: 200px;
+}
+
+/* Página de estilos
+---------------------------------------------------------*/
+#website .estilos h1{
+	color: #4a4a4a;
+	font-size: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dbd5c6;
+}
+
+#website .estilos a.botao{
+	margin-right: 10px;
+}
+
+#website .estilos .opcao{
+	width: 310px;
+	margin-top: 50px;
+}
+
+#website .estilos .opcao h2{
+	margin-bottom: 5px;
+}
+
+#website .estilos .opcao p.descricao{
+	margin-bottom: 20px;
+}
+
+#website .estilos .opcao label{
+	width: 105px;
+}
+
+#website .estilos .opcao input[type=text]{
+	margin-bottom: 5px;
+}
+
+#website .estilos .opcao #btn_opcao{
+	margin-left: 220px;
+	margin-top: 15px;
+}
+
+#website .estilos .busca{
+	width: 830px;
+	margin-top: 50px;
+}
+
+#website .estilos .busca h2{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#website .estilos .busca input[type=text]{
+	margin-right: 15px;
+}
+
+#website .estilos .busca #btn_buscar{
+	display: inline-block;
+}
+
+#website .estilos .informacao{
+	width: 265px;
+	margin-top: 50px;
+}
+
+#website .estilos .informacao h2{
+	margin-bottom: 5px;
+}
+
+#website .estilos .informacao p.descricao{
+	margin-bottom: 20px;
+}
+
+#website .estilos table.linhas{
+	width: 100%;
+	margin-top: 50px;
+}
+
+#website .estilos table.colunas{
+	width: 100%;
+	margin-top: 50px;
+}
+
+#website .estilos dl{
+	width: 210px;
+	margin-top: 50px;
+}
+
+/* Página de configurações do site
+---------------------------------------------------------*/
+#website .config .box{
+	width: 275px;
+	margin: 50px auto;
+}
+
+#website .config .box h2{
+	margin-bottom: 5px;
+}
+
+#website .config .box p{
+	margin-bottom: 20px;
+}
+
+#website .config .box label{
+	width: 70px;
+}
+
+#website .config .box input[type=text]{
+	margin-bottom: 5px;
+}
+
+#website .config .box #btn_entrar{
+	margin-left: 195px;
+	margin-top: 15px;
+}
+
+#website .config dl{
+	width: 200px;
+}

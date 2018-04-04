@@ -1,0 +1,22 @@
+/* Estrutura geral
+------------------------------------------------------------------------------------------ */
+
+body 
+{
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 12px;
+	line-height: 18px; 
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, form, table, p, ol, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+#website{
+	width: 100%;
+	margin: 0 auto;
+}
